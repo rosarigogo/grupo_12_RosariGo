@@ -1,13 +1,61 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="es">
+  <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicio</title>
-    <a href="css/style.css"></a>
-</head>
-<body>
-    
-</body>
+    <title>RosarioGO - Página de inicio</title>
+    <!-- Enlaces a hojas de estilo CSS -->
+    <link rel="stylesheet" href="/css/styles.css">
+    <style>
+      #centro {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #E62F2F;
+        border-radius: 50%;
+        width: 200px;
+        height: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 24px;
+        font-weight: bold;
+        color: #fff;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="#">Atracciones turísticas</a></li>
+          <li><a href="#">Galería</a></li>
+          <li><a href="page/nosotros.html">Nosotros</a></li>
+          <li><a href="/page/contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="banner">
+        <h1>Bienvenidos a RosarioGO</h1>
+        <p>Descubre la belleza de Rosario, Argentina</p>
+        <a href="#" class="boton-cta">Más información</a>
+      </section>
+      <section id="atracciones">
+        <h2>Atracciones turísticas en Rosario</h2>
+        <ul>
+          <li><a href="#">Museo de Bellas Artes Juan B. Castagnino</a></li>
+          <li><a href="#">Parque Nacional a la Bandera</a></li>
+          <li><a href="#">Puente Rosario-Victoria</a></li>
+        </ul>
+      </section>
+      <a href="#" id="centro">Lugar al Azar</a>
+    </main>
+    <footer>
+      <p>© 2023 RosarioGO. Todos los derechos reservados.</p>
+    </footer>
+  </body>
 </html>
