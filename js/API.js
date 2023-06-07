@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function() {
     var weatherInfo = document.getElementById("weatherInfo");
   
     // Configura los parámetros de la solicitud a la API de OpenWeatherMap
-    var apiKey = "599b2da13c1cfb4a740bb61c830dcdbc";
+    var apiKey = "af9c1fc88d6c298ecb75488d057919cc";
     var city = "Rosario";
     var url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
   
